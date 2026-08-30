@@ -1,0 +1,14 @@
+{
+  "name": "hack-skill-ideathon-submission",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace client",
+    "server": "npm run dev --workspace server",
+    "build": "npm run build --workspace client"
+  }
+}
